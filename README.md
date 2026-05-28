@@ -83,3 +83,8 @@ Además, se realizó validación cruzada e intervalos de confianza para comparar
 
 - Leandro Toro Lopez
 - Santiago Morales Giraldo
+
+---
+
+# Link Video
+https://youtu.be/hr-fghQHuOM
