@@ -1,44 +1,85 @@
-##Predicción de Precios de Arriendo 🏠
+# Predicción de Precios de Arriendo 🏠
 
 Proyecto de Machine Learning enfocado en la predicción del valor de arriendo de viviendas utilizando diferentes modelos supervisados y técnicas de reducción de dimensionalidad.
 
-Dataset
+---
 
-Se utilizó el dataset House Rent Prediction Dataset, el cual contiene información sobre propiedades en renta en India, incluyendo variables como:
+# Dataset
 
-Ciudad
-Tamaño del inmueble
-Número de habitaciones
-Número de baños
-Tipo de amueblamiento
-Tipo de área
-Piso del inmueble
-Valor del arriendo
+Se utilizó el dataset **House Rent Prediction Dataset**, el cual contiene información sobre propiedades en renta en India.
 
-Dataset obtenido desde https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset.
+El dataset incluye variables como:
 
-Modelos utilizados
+- Ciudad
+- Tamaño del inmueble
+- Número de habitaciones (BHK)
+- Número de baños
+- Tipo de amueblamiento
+- Tipo de área
+- Piso del inmueble
+- Preferencia de inquilino
+- Valor del arriendo
 
-Se evaluaron los siguientes modelos de Machine Learning:
+Dataset obtenido desde [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset).
 
-Regresión Lineal
-Árbol de Decisión
-KNN
-Support Vector Regression (SVR)
-XGBoost
-Red Neuronal (MLP)
+---
 
-Además, se aplicaron técnicas de reducción de dimensionalidad:
+# Modelos Utilizados
 
-PCA
-UMAP
+Durante el proyecto se evaluaron diferentes modelos de Machine Learning:
 
-Cómo ejecutar el proyecto
-1.Abrir el notebook en Google Colab.
-2.Ejecutar todas las celdas en orden.
+- Regresión Lineal
+- Árbol de Decisión
+- K-Nearest Neighbors (KNN)
+- Support Vector Regression (SVR)
+- XGBoost
+- Red Neuronal Artificial (MLP)
 
-El notebook instala automáticamente las librerías necesarias.
+---
 
-Integrantes
--Santiago Morales Giraldo
--Leandro Toro Lopez
+# Reducción de Dimensionalidad
+
+También se evaluaron técnicas de reducción de dimensionalidad para analizar el impacto sobre el desempeño de los modelos:
+
+- PCA
+- UMAP
+
+---
+
+# Cómo Ejecutar el Proyecto
+
+1. Abrir el notebook en Google Colab.
+2. Ejecutar todas las celdas en orden.
+
+El notebook instala automáticamente las librerías necesarias para la ejecución.
+
+---
+
+# Librerías Principales
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- xgboost
+- umap-learn
+
+---
+
+# Resultados
+
+Los modelos fueron evaluados utilizando métricas de regresión como:
+
+- MAE
+- RMSE
+- R²
+
+Además, se realizó validación cruzada e intervalos de confianza para comparar el desempeño de los modelos.
+
+---
+
+# Integrantes
+
+- Leandro Toro Lopez
+- Santiago Morales Giraldo
